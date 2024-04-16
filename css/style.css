@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #262a30;
+  display: flex;
+  justify-content: center;
+}
+
+.app {
+  margin-top: 10%;
+  width: 350px;
+  height: 400px;
+  background: #fbfbfb;
+  border-radius: 5px;
+  padding: 20px;
+  font-weight: 700;
+}
+
+#text-field {
+  width: 100%;
+  margin-top: 20px;
+  height: 40px;
+  outline: none;
+  border-radius: 5px;
+  border: 1.5px solid #262a30;
+}
+
+#QR-code {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
+  height: 150px;
+}
+
+#generate-btn {
+  color: white;
+  background: #454fd7;
+  width: 100%;
+  border: 0;
+  border-radius: 5px;
+  padding: 15px 0;
+  cursor: pointer;
+}
